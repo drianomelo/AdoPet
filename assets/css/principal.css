@@ -1,0 +1,43 @@
+.principal {
+    position: relative;
+    text-align: center;
+
+    z-index: 1;
+}
+
+.principal__textos {
+    text-align: center;
+    margin-bottom: 1.5em;
+    margin-top: 6em;
+}
+
+.principal__titulo {
+    margin: 1.5em 0;
+}
+
+.principal__paragrafo {
+    padding: 0 3.5em;
+}
+
+.principal__botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.principal__botao {
+    background-color: var(--vermelho);
+    border-radius: .4em;
+
+    text-align: center;
+
+    width: 50%;
+    padding: 1em 0;
+    margin-bottom: 1em;
+}
+
+.principal__imagem {
+    position: relative;
+    top: 1.5em;
+}
