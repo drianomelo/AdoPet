@@ -1,0 +1,26 @@
+@import url(reset.css);
+@import url(cabecalho.css);
+@import url(rodape.css);
+@import url(principal.css);
+
+:root {
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --vermelho: #FC7071;
+    --branco: #FFF;
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    background: url(../../img/Patas.svg), 
+                url(../../img/forma1.svg),
+                url(../../img/forma3.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top right, top left, left top -90%;
+
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--branco);
+}

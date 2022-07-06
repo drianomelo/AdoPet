@@ -1,0 +1,53 @@
+.principal {
+    position: relative;
+    text-align: center;
+
+    z-index: 1;
+}
+
+.principal__textos {
+    text-align: center;
+    margin-bottom: 1.5em;
+    margin-top: 6em;
+}
+
+.principal__titulo {
+    margin: 1.5em 0;
+    font-family: var(--fonte-secundaria);
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.principal__paragrafo {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+
+.principal__botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.principal__botao {
+    background-color: var(--vermelho);
+    border-radius: .4em;
+
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--branco);
+    text-align: center;
+    text-decoration: none;
+
+    width: 50%;
+    padding: 1em 0;
+    margin-bottom: 1em;
+}
+
+.principal__imagem {
+    position: relative;
+    top: 1.5em;
+}
