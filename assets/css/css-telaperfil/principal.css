@@ -1,0 +1,92 @@
+.principal {
+    position: relative;
+    text-align: center;
+    top: -3em;
+    
+    z-index: 1;
+}
+
+.principal__formulario {
+    background-color: var(--cinza-claro);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 80%;
+    border-radius: 10px;
+
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+.principal__formulario-titulo {
+    color: var(--cinza);
+    font-size: 21px;
+    font-weight: 600;
+    align-self: center;
+
+    margin-bottom: 1em;
+}
+
+.principal__formulario-foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+.principal__formulario-imagem {
+    margin-bottom: .5em;
+}
+
+.principal__formulario-mudar {
+    color: var(--vermelho);
+    font-size: 12px;
+
+    margin-bottom: 1em;
+}
+
+.principal__formulario-label {
+    color: var(--azul);
+    font-weight: 600;
+
+    margin-bottom: .5em;
+}
+
+.principal__formulario-input {
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+
+    width: 96%;
+    padding: 1em 0 1em .8em;
+    margin-bottom: 1em;
+}
+
+.principal__formulario-input::placeholder {
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+
+}
+
+.mensagem {
+    padding-bottom: 9em;
+}
+
+.principal__formulario-botao {
+    background-color: var(--vermelho);
+    border: none;
+    border-radius: 6px;
+
+    width: 40%;
+    padding: .5em 0;
+    margin: 0 auto;
+
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600;
+}

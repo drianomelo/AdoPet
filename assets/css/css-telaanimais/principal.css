@@ -1,21 +1,11 @@
 .principal {
     position: relative;
     text-align: center;
-
+    top: -4em;
+    
     z-index: 1;
 }
 
-.principal__textos {
-    margin-bottom: 1.5em;
-    margin-top: 4em;
-}
-
-.principal__paragrafo {
-    color: var(--azul);
-
-    width: 60%;
-    margin: 0 auto;
-}
 
 .principal__card {
     display: flex;

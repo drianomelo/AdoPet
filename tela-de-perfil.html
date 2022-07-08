@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/css-telaperfil/base.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__icones">
+            <div>
+                <a href="index.html" class="cabecalho__link"><img src="assets/img/Casa.svg" alt="Icone Casa" class="cabecalho__imagem"></a>
+                <a href="#" class="cabecalho__link"><img src="assets/img/Mensagens.svg" alt="Icone Mensagens" class="cabecalho__imagem"></a>
+            </div>
+            <a href="#" class="cabecalho__link"><img src="assets/img/foto.png" alt="Perfil" class="cabecalho__imagem"></a>
+        </div>
+        <div class="cabecalho__textos">
+            <p class="cabecalho__paragrafo">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+        </div>
+    </header>
+
+    <main class="principal">
+        <form action="" class="principal__formulario">
+            <h2 class="principal__formulario-titulo">Perfil</h2>
+
+            <h3 class="principal__formulario-label">Foto</h3>
+            <div class="principal__formulario-foto">
+                <img src="assets/img/foto2.png" alt="Perfil" class="principal__formulario-imagem">
+                <p class="principal__formulario-mudar">Clique na foto para editar</p>
+            </div>
+
+            <label for="nome" class="principal__formulario-label">Nome</label>
+            <input type="text" id="nome" class="principal__formulario-input" placeholder="Joana Magalhões" required>
+
+            <label for="telefone" class="principal__formulario-label">Telefone</label>
+            <input type="number" id="telefone" class="principal__formulario-input" placeholder="55 11 XXXXXXXXX" required>
+
+            <label for="cidade" class="principal__formulario-label">Cidade</label>
+            <input type="text" id="cidade" class="principal__formulario-input" placeholder="São Paulo" required>
+
+            <label for="sobre" class="principal__formulario-label">Sobre</label>
+            <input type="text" id="sobre" class="principal__formulario-input mensagem" placeholder="Amo animais" required>
+
+            <button type="submit" class="principal__formulario-botao">Salvar</button>
+        </form>
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+</html>

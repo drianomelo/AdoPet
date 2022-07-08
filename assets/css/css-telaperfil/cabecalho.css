@@ -1,8 +1,4 @@
 .cabecalho {
-    background: url(../../img/forma1.svg);
-    background-repeat: no-repeat;
-    background-position: top left;
-
     position: relative;
 
     z-index: 2;
@@ -21,13 +17,13 @@
 .cabecalho__paragrafo {
     color: var(--azul);
 
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
 }
 
 .cabecalho__textos {
     text-align: center;
-    margin-top: 4.5em;
+    margin-top: 5em;
 }
 
 .cabecalho__imagem {
