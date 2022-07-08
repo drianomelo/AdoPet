@@ -1,0 +1,11 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 3em 0 0 3em;
+}
+
+.cabecalho__imagem {
+    margin-right: 3.625em;
+}

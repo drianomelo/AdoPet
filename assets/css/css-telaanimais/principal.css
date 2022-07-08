@@ -1,0 +1,67 @@
+.principal {
+    position: relative;
+    text-align: center;
+
+    z-index: 1;
+}
+
+.principal__textos {
+    margin-bottom: 1.5em;
+    margin-top: 4em;
+}
+
+.principal__paragrafo {
+    color: var(--azul);
+
+    width: 60%;
+    margin: 0 auto;
+}
+
+.principal__card {
+    display: flex;
+    align-items: center;
+
+    background-color: var(--cinza-claro);
+
+    padding: 1em;
+
+    margin-bottom: 1em;
+}
+
+
+.principal__card-conteudo {
+    width: 50%;
+    text-align: start;
+    margin-left: 2em;
+}
+
+.principal__card-nome {
+    color: var(--azul);
+    font-weight: 600;
+
+    margin-bottom: 1em;
+}
+
+.principal__card-descricao {
+    color: var(--cinza);
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 1.5em;
+}
+
+.principal__card-local {
+    color: var(--cinza);
+    font-size: 12px;
+    margin-bottom: .5em;
+}
+
+.principal__card-fale-com-resp {
+    display: flex;
+    align-items: center;
+}
+
+.principal__card-fale {
+    color: var(--cinza);
+    font-size: 10px;
+    margin-left: 1em;
+}
