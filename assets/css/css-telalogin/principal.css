@@ -81,3 +81,56 @@
 
     margin: .8em 0 1.3em 0;
 }
+
+@media screen and (min-width: 768px) {
+    .principal__textos{
+        margin-top: 11em;
+    }
+    .principal__logo{
+        width: 251px;
+        height: 62px;
+
+        margin-bottom: 2em;
+    }
+    .principal__paragrafo {
+        width: 70%;
+        font-size: 18px;
+
+        margin-top: 0;
+        margin-bottom: 2em;
+    }
+    .principal__formulario-input {
+        width: 40%;
+
+        font-size: 14px;
+    }
+    .principal__formulario-label {
+        font-size: 18px;
+    }
+    .principal__formulario-botao {
+        width: 20%;
+ 
+        font-size: 18px;
+
+        margin-top: 2em;
+    }
+    .principal__formulario-esqueci{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .principal__textos{
+        margin-top: 3em;
+    }
+    .principal__paragrafo{
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+    .senha{
+        width: 20%;
+    }
+    .principal__formulario-botao{
+        width: 10%;
+    }
+}

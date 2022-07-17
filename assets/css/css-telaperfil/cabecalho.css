@@ -29,3 +29,39 @@
 .cabecalho__imagem {
     margin-right: 3.625em;
 }
+
+.cabecalho__logo{ 
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho{
+        margin-bottom: 9em;
+    }
+    .cabecalho__logo{
+        display: inline-block;
+
+        width: 128px;
+        height: 30px;
+    }
+    .cabecalho__textos {
+        margin-top: 13em;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho{
+        margin-bottom: 2em;
+    }
+    .cabecalho__textos {
+        margin-top: 6em;
+    }
+    .cabecalho__paragrafo{
+        width: 35%;
+    }
+    .cabecalho__icones{
+        padding-left: 8em;
+        padding-top: 4em;
+    }
+}

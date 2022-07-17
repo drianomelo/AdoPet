@@ -24,3 +24,13 @@ body {
     font-weight: 400;
     color: var(--branco);
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        background: url(../../img/forma1-tablet.svg), 
+                    url(../../img/forma2-tablet.svg);
+                    background-repeat: no-repeat, no-repeat;
+                    background-position: top left, right top 65%;
+                    background-color: var(--azul);
+    }
+}

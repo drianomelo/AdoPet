@@ -33,3 +33,62 @@
 .cabecalho__imagem {
     margin-right: 3.625em;
 }
+
+.tablet {
+    display: none;
+}
+
+.cabecalho__logo {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho{
+        background: url(../../img/forma1-tablet.svg);
+                    background-repeat: no-repeat;
+                    background-position: top left;
+        
+        height: 469px;
+    }
+    .cabecalho__menu {
+        display: flex;
+        align-items: center;
+    }
+    .cabecalho__textos {
+        margin-top: 13em;
+        font-size: 18px;
+    }
+    .cabecalho__logo{
+        display: inline-block;
+
+        width: 128px;
+        height: 30px;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: inline;
+        font-size: 18px;
+        line-height: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho{
+        background: none;
+    }
+    .cabecalho__icones{
+        padding-left: 8em;
+        padding-top: 4em;
+    }
+    .cabecalho__textos{
+        margin-top: 6em;
+    }
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}

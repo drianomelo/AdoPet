@@ -5,3 +5,28 @@
 .cabecalho__imagem {
     margin-right: 3.625em;
 }
+
+.cabecalho__logo {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        display: flex;
+        align-items: center;
+
+        padding-top: 4em;
+    }
+    .cabecalho__logo {
+        display: inline-block;
+
+        width: 128px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        padding-left: 8em;
+    }
+}
